@@ -14,6 +14,8 @@ for (x,y) in file_pairs:
 
 #comments below are just funky things I'm playing with
 '''
+#word frequency dictionary
+
 words = text.split()
 unique_words = set(words)
 
