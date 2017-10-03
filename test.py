@@ -6,7 +6,16 @@ file_pairs = [
     ('raw_texts/ov_met_3_raw.txt','clean_texts/ov_met_3_clean.txt'),
     ('raw_texts/ov_met_4_raw.txt','clean_texts/ov_met_4_clean.txt'),
     ('raw_texts/ov_met_5_raw.txt','clean_texts/ov_met_5_clean.txt'),
-    ('raw_texts/ov_met_6_raw.txt','clean_texts/ov_met_6_clean.txt')
+    ('raw_texts/ov_met_6_raw.txt','clean_texts/ov_met_6_clean.txt'),
+    ('raw_texts/ov_met_7_raw.txt','clean_texts/ov_met_7_clean.txt'),
+    ('raw_texts/ov_met_8_raw.txt','clean_texts/ov_met_8_clean.txt'),
+    ('raw_texts/ov_met_9_raw.txt','clean_texts/ov_met_9_clean.txt'),
+    ('raw_texts/ov_met_10_raw.txt','clean_texts/ov_met_10_clean.txt'),
+    ('raw_texts/ov_met_11_raw.txt','clean_texts/ov_met_11_clean.txt'),
+    ('raw_texts/ov_met_12_raw.txt','clean_texts/ov_met_12_clean.txt'),
+    ('raw_texts/ov_met_13_raw.txt','clean_texts/ov_met_13_clean.txt'),
+    ('raw_texts/ov_met_14_raw.txt','clean_texts/ov_met_14_clean.txt'),
+    ('raw_texts/ov_met_15_raw.txt','clean_texts/ov_met_15_clean.txt'),
 ]
 
 for (x,y) in file_pairs:
