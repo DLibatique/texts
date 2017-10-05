@@ -24,12 +24,19 @@ def clean_text(text):
 
     return text
 
-def select_file(raw_file,clean_file):
-
-    #open the file, assign raw text to text variable
-    infile = open(raw_file)
+def read_file(filename):
+    '''
+    input: filename
+    output: raw text
+    '''
+    infile = open(filename)
     text = infile.read()
     infile.close()
+    return text
+
+def select_file(raw_file,clean_file):
+    
+    read_file(raw_file)
 
     #clean the text
     text = clean_text(text)
