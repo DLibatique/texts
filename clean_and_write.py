@@ -45,3 +45,14 @@ def select_file(raw_file,clean_file):
     outfile = open(clean_file, mode='w')
     outfile.write(text)
     outfile.close()
+
+def create_dictionary(filename):
+    
+    dict = {}
+    text = read_file(filename).split('\n')
+    for linenumber,line in enumerate(text,1):
+        dict[linenumber] = line
+
+    return dict
+
+print create_dictionary("clean_texts/ov_met_1_clean.txt")

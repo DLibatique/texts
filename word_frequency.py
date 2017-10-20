@@ -22,4 +22,5 @@ def word_frequency(filename):
 
 	return word_frequency
 
-print word_frequency('clean_texts/ov_met_6_clean.txt')['lacrimae']
+#print word_frequency('clean_texts/ov_met_6_clean.txt')['lacrimae']
+
