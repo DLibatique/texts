@@ -1,15 +1,36 @@
 import re
+import clean_and_write
+import os
 
-raw_text = 'arma virumque cano Troiae qui primus ab oris\nItaliam fato profugus Laviniaque venit\nlitora multum ille et terris iactatus et alto'
-line_list = raw_text.split('\n')
+def create_dictionary(filename):
 
-Aeneid_1 = {}
+	#get text and split at each new line
+	raw_text = clean_and_write.read_file(filename)
+	line_list = raw_text.split('\n')
 
-for line_number, text in enumerate(line_list):
-  Aeneid_1[line_number+1] = text
+	#create dictionary and assign line to line number
+	dict = {}
+	for line_number, text in enumerate(line_list):
+  		dict[line_number+1] = text
 
-for k,v in Aeneid_1.items():
-	if "Italiam" in v:
-		print k
-	else:
-		pass
+  	return dict
+
+def word_search(expression,dict):
+	
+	#define the regex expression you're searching
+	test = expression
+	
+	#search for the expression in the values of a given dictionary, print initial match location
+	for key,value in dict.items():
+		if re.search(test,value):
+			match = re.search(test,value)
+			print "Match at line %s from index %s to %s" % (key,match.start(),match.end())
+		else:
+			pass
+
+word_search(r'clar[iou][m\ss]',create_dictionary('clean_texts/ov_met_7_clean.txt'))
+
+'''
+for file in os.listdir('clean_texts'):
+	word_search(r'clar[iou][m\ss]',create_dictionary(file))
+'''
