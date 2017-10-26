@@ -4,33 +4,32 @@ import os
 
 def create_dictionary(filename):
 
-	#get text and split at each new line
-	raw_text = clean_and_write.read_file(filename)
-	line_list = raw_text.split('\n')
+    #get text and split at each new line
+    raw_text = clean_and_write.read_file(filename)
+    line_list = raw_text.split('\n')
 
-	#create dictionary and assign line to line number
-	dict = {}
-	for line_number, text in enumerate(line_list):
-  		dict[line_number+1] = text
+    #create dictionary and assign line to line number
+    dict = {}
+    for line_number, text in enumerate(line_list):
+        dict[line_number+1] = text
 
-  	return dict
+    return dict
 
 def word_search(expression,dict):
 	
-	#define the regex expression you're searching
-	test = expression
-	
-	#search for the expression in the values of a given dictionary, print initial match location
-	for key,value in dict.items():
-		if re.search(test,value):
-			match = re.search(test,value)
-			print "Match at line %s from index %s to %s" % (key,match.start(),match.end())
-		else:
-			pass
+    #define the regex expression you're searching
+    test = expression
 
-word_search(r'clar[iou][m\ss]',create_dictionary('clean_texts/ov_met_7_clean.txt'))
+    #search for the expression in the values of a given dictionary, print initial match location
+    for key,value in dict.items():
+        if re.search(test,value):
+            match = re.search(test,value)
+            print "at line %s from index %s to %s" % (key,match.start(),match.end())
+        else:
+            pass
 
-'''
+#word_search(r'clar[iou][m\ss]',create_dictionary('clean_texts/ov_met_7_clean.txt'))
+
 for file in os.listdir('clean_texts'):
-	word_search(r'clar[iou][m\ss]',create_dictionary(file))
-'''
+    print "In %s, your expression was found:" % (file)
+    word_search(r'clar.',create_dictionary('clean_texts//'+file))
