@@ -44,7 +44,8 @@ cum genero debere mori sed limine tecti
 exierat cepheus testatus iusque fidemque
 hospitiique deos ea se prohibente moveri
 bellica pallas adest et protegit aegide fratrem
-datque animos erat indus athis quem flumine gange
+datque animos
+erat indus athis quem flumine gange
 edita limnaee vitreis peperisse sub undis
 creditur egregius forma quam divite cultu
 augebat bis adhuc octonis integer annis

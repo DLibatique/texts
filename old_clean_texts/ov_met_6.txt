@@ -616,7 +616,8 @@ artificem mediis inmittam terea flammis
 aut linguam atque oculos et quae tibi membra pudorem
 abstulerunt ferro rapiam aut per vulnera mille
 sontem animam expellam magnum quodcumque paravi
-quid sit adhuc dubito peragit dum talia procne
+quid sit adhuc dubito 
+peragit dum talia procne
 ad matrem veniebat itys quid possit ab illo
 admonita est oculisque tuens inmitibus a quam
 es similis patri dixit nec plura locuta

@@ -16,7 +16,7 @@ terra viros urbesque gerit silvasque ferasque
 fluminaque et nymphas et cetera numina ruris
 haec super inposita est caeli fulgentis imago
 signaque sex foribus dextris totidemque sinistris
-quo simul adclivi clymeneia limite proles
+    quo simul adclivi clymeneia limite proles
 venit et intravit dubitati tecta parentis
 protinus ad patrios sua fert vestigia vultus
 consistitque procul neque enim propiora ferebat
@@ -28,7 +28,7 @@ verque novum stabat cinctum florente corona
 stabat nuda aestas et spicea serta gerebat
 stabat et autumnus calcatis sordidus uvis
 et glacialis hiems canos hirsuta capillos
-ipse loco medius rerum novitate paventem
+    ipse loco medius rerum novitate paventem
 sol oculis iuvenem quibus adspicit omnia vidit
 quae que viae tibi causa quid hac ait arce petisti
 progenies phaethon haud infitianda parenti
@@ -46,7 +46,7 @@ me tribuente feras promissi testis adesto
 dis iuranda palus oculis incognita nostris
 vix bene desierat currus rogat ille paternos
 inque diem alipedum ius et moderamen equorum
-paenituit iurasse patrem qui terque quaterque
+    paenituit iurasse patrem qui terque quaterque
 concutiens inlustre caput temeraria dixit
 vox mea facta tua est utinam promissa liceret
 non dare confiteor solum hoc tibi nate negarem
@@ -100,7 +100,7 @@ non honor est poenam phaethon pro munere poscis
 quid mea colla tenes blandis ignare lacertis
 ne dubita dabitur stygias iuravimus undas
 quodcumque optaris sed tu sapientius opta
-finierat monitus dictis tamen ille repugnat
+    finierat monitus dictis tamen ille repugnat
 propositumque premit flagratque cupidine currus
 ergo qua licuit genitor cunctatus ad altos
 deducit iuvenem vulcania munera currus
@@ -108,12 +108,12 @@ aureus axis erat temo aureus aurea summae
 curvatura rotae radiorum argenteus ordo
 per iuga chrysolithi positaeque ex ordine gemmae
 clara repercusso reddebant lumina phoebo
-dumque ea magnanimus phaethon miratur opusque
+    dumque ea magnanimus phaethon miratur opusque
 perspicit ecce vigil nitido patefecit ab ortu
 purpureas aurora fores et plena rosarum
 atria diffugiunt stellae quarum agmina cogit
 lucifer et caeli statione novissimus exit
-quem petere ut terras mundumque rubescere vidit
+    quem petere ut terras mundumque rubescere vidit
 cornuaque extremae velut evanescere lunae
 iungere equos titan velocibus imperat horis
 iussa deae celeres peragunt ignemque vomentes
@@ -147,10 +147,10 @@ est tibi consiliis non curribus utere nostris
 dum potes et solidis etiamnum sedibus adstas
 dumque male optatos nondum premis inscius axes
 quae tutus spectes sine me dare lumina terris
-occupat ille levem iuvenali corpore currum
+    occupat ille levem iuvenali corpore currum
 statque super manibusque leves contingere habenas
 gaudet et invito grates agit inde parenti
-interea volucres pyrois et eous et aethon
+    interea volucres pyrois et eous et aethon
 solis equi quartusque phlegon hinnitibus auras
 flammiferis inplent pedibusque repagula pulsant
 quae postquam tethys fatorum ignara nepotis
@@ -164,7 +164,7 @@ utque labant curvae iusto sine pondere naves
 perque mare instabiles nimia levitate feruntur
 sic onere adsueto vacuus dat in aera saltus
 succutiturque alte similisque est currus inani
-quod simulac sensere ruunt tritumque relinquunt
+    quod simulac sensere ruunt tritumque relinquunt
 quadriiugi spatium nec quo prius ordine currunt
 ipse pavet nec qua commissas flectat habenas
 nec scit qua sit iter nec si sciat imperet illis
@@ -175,7 +175,7 @@ frigore pigra prius nec formidabilis ulli
 incaluit sumpsitque novas fervoribus iras
 te quoque turbatum memorant fugisse boote
 quamvis tardus eras et te tua plaustra tenebant
-ut vero summo despexit ab aethere terras
+    ut vero summo despexit ab aethere terras
 infelix phaethon penitus penitusque iacentes
 palluit et subito genua intremuere timore
 suntque oculis tenebrae per tantum lumen obortae
@@ -198,7 +198,7 @@ porrigit in spatium signorum membra duorum
 hunc puer ut nigri madidum sudore veneni
 vulnera curvata minitantem cuspide vidit
 mentis inops gelida formidine lora remisit
-quae postquam summum tetigere iacentia tergum
+    quae postquam summum tetigere iacentia tergum
 exspatiantur equi nulloque inhibente per auras
 ignotae regionis eunt quaque inpetus egit
 hac sine lege ruunt altoque sub aethere fixis
@@ -224,7 +224,7 @@ dindymaque et mycale natusque ad sacra cithaeron
 nec prosunt scythiae sua frigora caucasus ardet
 ossaque cum pindo maiorque ambobus olympus
 aeriaeque alpes et nubifer appenninus
-tum vero phaethon cunctis e partibus orbem
+    tum vero phaethon cunctis e partibus orbem
 adspicit accensum nec tantos sustinet aestus
 ferventisque auras velut e fornace profunda
 ore trahit currusque suos candescere sentit
@@ -232,7 +232,7 @@ et neque iam cineres eiectatamque favillam
 ferre potest calidoque involvitur undique fumo
 quoque eat aut ubi sit picea caligine tectus
 nescit et arbitrio volucrum raptatur equorum
-sanguine tum credunt in corpora summa vocato
+    sanguine tum credunt in corpora summa vocato
 aethiopum populos nigrum traxisse colorem
 tum facta est libye raptis umoribus aestu
 arida tum nymphae passis fontesque lacusque
@@ -269,7 +269,7 @@ exanimata natant ipsum quoque nerea fama est
 doridaque et natas tepidis latuisse sub antris
 ter neptunus aquis cum torvo bracchia vultu
 exserere ausus erat ter non tulit aeris ignes
-alma tamen tellus ut erat circumdata ponto
+    alma tamen tellus ut erat circumdata ponto
 inter aquas pelagi contractosque undique fontes
 qui se condiderant in opacae viscera matris
 sustulit oppressos collo tenus arida vultus
@@ -298,7 +298,7 @@ vixque suis umeris candentem sustinet axem
 si freta si terrae pereunt si regia caeli
 in chaos antiquum confundimur eripe flammis
 si quid adhuc superest et rerum consule summae
-dixerat haec tellus neque enim tolerare vaporem
+    dixerat haec tellus neque enim tolerare vaporem
 ulterius potuit nec dicere plura suumque
 rettulit os in se propioraque manibus antra
 at pater omnipotens superos testatus et ipsum
@@ -316,7 +316,7 @@ colla iugo eripiunt abruptaque lora relinquunt
 illic frena iacent illic temone revulsus
 axis in hac radii fractarum parte rotarum
 sparsaque sunt late laceri vestigia currus
-at phaethon rutilos flamma populante capillos
+    at phaethon rutilos flamma populante capillos
 volvitur in praeceps longoque per aera tractu
 fertur ut interdum de caelo stella sereno
 etsi non cecidit potuit cecidisse videri
@@ -326,7 +326,7 @@ naides hesperiae trifida fumantia flamma
 corpora dant tumulo signant quoque carmine saxum
 hic  sitvs  est  phaethon  cvrrvs  avriga  paterni
 qvem  si  non  tenvit  magnis  tamen  excidit  avsis
-nam pater obductos luctu miserabilis aegro
+    nam pater obductos luctu miserabilis aegro
 condiderat vultus et si modo credimus unum
 isse diem sine sole ferunt incendia lumen
 praebebant aliquisque malo fuit usus in illo
@@ -364,7 +364,7 @@ iamque vale—cortex in verba novissima venit
 inde fluunt lacrimae stillataque sole rigescunt
 de ramis electra novis quae lucidus amnis
 excipit et nuribus mittit gestanda latinis
-adfuit huic monstro proles stheneleia cycnus
+    adfuit huic monstro proles stheneleia cycnus
 qui tibi materno quamvis a sanguine iunctus
 mente tamen phaethon propior fuit ille relicto
 nam ligurum populos et magnas rexerat urbes
@@ -378,7 +378,7 @@ fit nova cycnus avis nec se caeloque iovique
 credit ut iniuste missi memor ignis ab illo
 stagna petit patulosque lacus ignemque perosus
 quae colat elegit contraria flumina flammis
-squalidus interea genitor phaethontis et expers
+    squalidus interea genitor phaethontis et expers
 ipse sui decoris qualis cum deficit orbem
 esse solet lucemque odit seque ipse diemque
 datque animum in luctus et luctibus adicit iram
@@ -391,14 +391,14 @@ ipse agat ut saltem dum nostras temptat habenas
 orbatura patres aliquando fulmina ponat
 tum sciet ignipedum vires expertus equorum
 non meruisse necem qui non bene rexerit illos
-talia dicentem circumstant omnia solem
+    talia dicentem circumstant omnia solem
 numina neve velit tenebras inducere rebus
 supplice voce rogant missos quoque iuppiter ignes
 excusat precibusque minas regaliter addit
 colligit amentes et adhuc terrore paventes
 phoebus equos stimuloque dolens et verbere saevit
 saevit enim natumque obiectat et inputat illis
-at pater omnipotens ingentia moenia caeli
+    at pater omnipotens ingentia moenia caeli
 circuit et ne quid labefactum viribus ignis
 corruat explorat quae postquam firma suique
 roboris esse videt terras hominumque labores
@@ -414,7 +414,7 @@ vitta coercuerat neglectos alba capillos
 et modo leve manu iaculum modo sumpserat arcum
 miles erat phoebes nec maenalon attigit ulla
 gratior hac triviae sed nulla potentia longa est
-ulterius medio spatium sol altus habebat
+    ulterius medio spatium sol altus habebat
 cum subit illa nemus quod nulla ceciderat aetas
 exuit hic umero pharetram lentosque retendit
 arcus inque solo quod texerat herba iacebat
@@ -438,7 +438,7 @@ quisve iovem poterat superum petit aethera victor
 iuppiter huic odio nemus est et conscia silva
 unde pedem referens paene est oblita pharetram
 tollere cum telis et quem suspenderat arcum
-ecce suo comitata choro dictynna per altum
+    ecce suo comitata choro dictynna per altum
 maenalon ingrediens et caede superba ferarum
 adspicit hanc visamque vocat clamata refugit
 et timuit primo ne iuppiter esset in illa
@@ -463,7 +463,7 @@ qua posita nudo patuit cum corpore crimen
 attonitae manibusque uterum celare volenti
 i procul hinc dixit nec sacros pollue fontis
 cynthia deque suo iussit secedere coetu
-senserat hoc olim magni matrona tonantis
+    senserat hoc olim magni matrona tonantis
 distuleratque graves in idonea tempora poenas
 causa morae nulla est et iam puer arcas id ipsum
 indoluit iuno fuerat de paelice natus
@@ -493,7 +493,7 @@ venatrixque metu venantum territa fugit
 saepe feris latuit visis oblita quid esset
 ursaque conspectos in montibus horruit ursos
 pertimuitque lupos quamvis pater esset in illis
-ecce lycaoniae proles ignara parentis
+    ecce lycaoniae proles ignara parentis
 arcas adest ter quinque fere natalibus actis
 dumque feras sequitur dum saltus eligit aptos
 nexilibusque plagis silvas erymanthidas ambit
@@ -505,7 +505,7 @@ vulnifico fuerat fixurus pectora telo
 arcuit omnipotens pariterque ipsosque nefasque
 sustulit et pariter raptos per inania vento
 inposuit caelo vicinaque sidera fecit
-intumuit iuno postquam inter sidera paelex
+    intumuit iuno postquam inter sidera paelex
 fulsit et ad canam descendit in aequora tethyn
 oceanumque senem quorum reverentia movit
 saepe deos causamque viae scitantibus infit
@@ -528,7 +528,7 @@ at vos si laesae tangit contemptus alumnae
 gurgite caeruleo septem prohibete triones
 sideraque in caelo stupri mercede recepta
 pellite ne puro tinguatur in aequore paelex
-di maris adnuerant habili saturnia curru
+    di maris adnuerant habili saturnia curru
 ingreditur liquidum pavonibus aethera pictis
 tam nuper pictis caeso pavonibus argo
 quam tu nuper eras cum candidus ante fuisses
@@ -539,7 +539,7 @@ nec servaturis vigili capitolia voce
 cederet anseribus nec amanti flumina cycno
 lingua fuit damno lingua faciente loquaci
 qui color albus erat nunc est contrarius albo
-pulchrior in tota quam larisaea coronis
+    pulchrior in tota quam larisaea coronis
 non fuit haemonia placuit tibi delphice certe
 dum vel casta fuit vel inobservata sed ales
 sensit adulterium phoebeius utque latentem
@@ -593,7 +593,7 @@ non audita tibi est patrium temerasse cubile
 nyctimenen avis illa quidem sed conscia culpae
 conspectum lucemque fugit tenebrisque pudorem
 celat et a cunctis expellitur aethere toto
-talia dicenti tibi ait revocamina corvus
+    talia dicenti tibi ait revocamina corvus
 sint precor ista malo nos vanum spernimus omen
 nec coeptum dimittit iter dominoque iacentem
 cum iuvene haemonio vidisse coronida narrat
@@ -609,7 +609,7 @@ et dixit potui poenas tibi phoebe dedisse
 sed peperisse prius duo nunc moriemur in una
 hactenus et pariter vitam cum sanguine fudit
 corpus inane animae frigus letale secutum est
-paenitet heu sero poenae crudelis amantem
+    paenitet heu sero poenae crudelis amantem
 seque quod audierit quod sic exarserit odit
 odit avem per quam crimen causamque dolendi
 scire coactus erat nec non arcumque manumque
@@ -630,7 +630,7 @@ semina sed natum flammis uteroque parentis
 eripuit geminique tulit chironis in antrum
 sperantemque sibi non falsae praemia linguae
 inter aves albas vetuit consistere corvum
-semifer interea divinae stirpis alumno
+    semifer interea divinae stirpis alumno
 laetus erat mixtoque oneri gaudebat honore
 ecce venit rutilis umeros protecta capillis
 filia centauri quam quondam nympha chariclo
@@ -673,7 +673,7 @@ et colli spatium longae pars maxima pallae
 cauda fit utque vagi crines per colla iacebant
 in dextras abiere iubas pariterque novata est
 et vox et facies nomen quoque monstra dedere
-flebat opemque tuam frustra philyreius heros
+    flebat opemque tuam frustra philyreius heros
 delphice poscebat nam nec rescindere magni
 iussa iovis poteras nec si rescindere posses
 tunc aderas elin messeniaque arva colebas
@@ -705,7 +705,7 @@ risit atlantiades et me mihi perfide prodis
 me mihi prodis ait periuraque pectora vertit
 in durum silicem qui nunc quoque dicitur index
 inque nihil merito vetus est infamia saxo
-hinc se sustulerat paribus caducifer alis
+    hinc se sustulerat paribus caducifer alis
 munychiosque volans agros gratamque minervae
 despectabat humum cultique arbusta lycei
 illa forte die castae de more puellae
@@ -734,7 +734,7 @@ permulcetque comas chlamydemque ut pendeat apte
 collocat ut limbus totumque adpareat aurum
 ut teres in dextra qua somnos ducit et arcet
 virga sit ut tersis niteant talaria plantis
-pars secreta domus ebore et testudine cultos
+    pars secreta domus ebore et testudine cultos
 tres habuit thalamos quorum tu pandrose dextrum
 aglauros laevum medium possederat herse
 quae tenuit laevum venientem prima notavit
@@ -749,7 +749,7 @@ adspicit hunc oculis isdem quibus abdita nuper
 viderat aglauros flavae secreta minervae
 proque ministerio magni sibi ponderis aurum
 postulat interea tectis excedere cogit
-vertit ad hanc torvi dea bellica luminis orbem
+    vertit ad hanc torvi dea bellica luminis orbem
 et tanto penitus traxit suspiria motu
 ut pariter pectus positamque in pectore forti
 aegida concuteret subit hanc arcana profana
@@ -784,7 +784,7 @@ talibus adfata est breviter tritonia dictis
 infice tabe tua natarum cecropis unam
 sic opus est aglauros ea est haud plura locuta
 fugit et inpressa tellurem reppulit hasta
-illa deam obliquo fugientem lumine cernens
+    illa deam obliquo fugientem lumine cernens
 murmura parva dedit successurumque minervae
 indoluit baculumque capit quod spinea totum
 vincula cingebant adopertaque nubibus atris
@@ -830,7 +830,7 @@ nec conata loqui est nec si conata fuisset
 vocis habebat iter saxum iam colla tenebat
 oraque duruerant signumque exsangue sedebat
 nec lapis albus erat sua mens infecerat illam
-has ubi verborum poenas mentisque profanae
+    has ubi verborum poenas mentisque profanae
 cepit atlantiades dictas a pallade terras
 linquit et ingreditur iactatis aethera pennis
 sevocat hunc genitor nec causam fassus amoris

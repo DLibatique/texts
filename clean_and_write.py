@@ -13,7 +13,7 @@ def clean_text(text):
         text = text.replace(marker,'')
 
     #remove indents and extra spaces
-    spaces = ['     ','      ','               ']
+    spaces = ['    ','     ','      ','               ']
     for element in spaces:
     	text = text.replace(element,'')
 
@@ -36,14 +36,14 @@ def read_file(filename):
 
 def select_file(raw_file,clean_file):
     
-    read_file(raw_file)
+    old_text = read_file(raw_file)
 
     #clean the text
-    text = clean_text(text)
+    new_text = clean_text(old_text)
 
     #write to new file
     outfile = open(clean_file, mode='w')
-    outfile.write(text)
+    outfile.write(new_text)
     outfile.close()
 
 def create_dictionary(filename):
@@ -54,5 +54,3 @@ def create_dictionary(filename):
         dict[linenumber] = line
 
     return dict
-
-print create_dictionary("clean_texts/ov_met_1_clean.txt")

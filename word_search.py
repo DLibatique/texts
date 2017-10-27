@@ -28,8 +28,6 @@ def word_search(expression,dict):
         else:
             pass
 
-#word_search(r'clar[iou][m\ss]',create_dictionary('clean_texts/ov_met_7_clean.txt'))
-
 for file in os.listdir('clean_texts'):
     print "In %s, your expression was found:" % (file)
-    word_search(r'clar.',create_dictionary('clean_texts//'+file))
+    word_search(r'clar[aiou][emrs]?(um)?',create_dictionary('clean_texts//'+file))
