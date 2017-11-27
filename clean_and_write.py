@@ -17,10 +17,10 @@ def clean_text(text):
     for element in spaces:
     	text = text.replace(element,'')
 
-	#remove line numbers
-	numbers = '1234567890'
-	for number in numbers:
-		text = text.replace(number,'')
+    #remove line numbers
+    numbers = '1234567890'
+    for number in numbers:
+        text = text.replace(number,'')
 
     return text
 
@@ -54,3 +54,9 @@ def create_dictionary(filename):
         dict[linenumber] = line
 
     return dict
+
+def vocab_set(filename):
+
+    text = sorted(set(read_file(filename).split()))
+    
+    return text
