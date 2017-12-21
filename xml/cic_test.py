@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+'''import xml.etree.ElementTree as ET
 
 tree = ET.parse('cic.fam_lat.xml')
 root = tree.getroot()
@@ -8,7 +8,12 @@ while True:
 		for name in root.iter('name'):
 			print(root.tag, name.text)
 	except xml.etree.ElementTree.ParseError:
-		pass
+		pass'''
 
-for name in root.iter('name'):
-	print(name.text)
+import lxml.etree as ET
+
+parser = ET.XMLParser(recover=True)
+tree = ET.parse('cic.fam_lat.xml', parser=parser)
+
+for name in tree.iter('name'):
+    print(name.getparent(), '--', name.text)
