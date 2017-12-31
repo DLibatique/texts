@@ -10,7 +10,7 @@ def quiz():
         ['ἔρχομαι', 'ἐλεύσομαι', 'ἦλθον', 'ἐλήλυθα', None, None],
         ['ἔχω', 'ἕξω', 'ἔσχον', 'ἔσχηκα', None, None],
         ['ἵστημι', 'στήσω', 'ἔστην/ἔστησα', 'ἕστηκα', 'ἕσταμαι', 'ἐστάθην']
-	]
+    ]
 
     #choose a verb
     selected_verb = random.choice(verbs)
@@ -26,9 +26,9 @@ def quiz():
     answer = input('What is the first principal part of ' + random_pp + '? --> ')
 
     #if user is incorrect, prompt again
-    if answer == selected_verb[0]:
-        print('Correct!')
-    else:
+    while answer != selected_verb[0]:
         answer = input('Try again! --> ')
+    else:
+        print('Correct!')
 
 quiz()
