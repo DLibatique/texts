@@ -9,26 +9,32 @@ def quiz():
         ['δίδωμι', 'δώσω', 'ἔδωκα', 'δέδωκα', 'δέδομαι', 'ἐδόθην'],
         ['ἔρχομαι', 'ἐλεύσομαι', 'ἦλθον', 'ἐλήλυθα', None, None],
         ['ἔχω', 'ἕξω', 'ἔσχον', 'ἔσχηκα', None, None],
-        ['ἵστημι', 'στήσω', 'ἔστην/ἔστησα', 'ἕστηκα', 'ἕσταμαι', 'ἐστάθην']
+        ['ἵστημι', 'στήσω', 'ἔστην/ἔστησα', 'ἕστηκα', 'ἕσταμαι', 'ἐστάθην'],
+        ['ὅραω', 'ὄψομαι', 'εἶδον', 'ἑώρακα', 'ὦμμαι', 'ὤφθην'],
+        ['τίθημι', 'θήσω', 'ἔθηκα', 'τέθεικα', 'τέθειμαι', 'ἐτέθην'],
+        ['φημί', 'φήσω', 'ἔφησα', None, None, None]
     ]
 
-    #choose a verb
-    selected_verb = random.choice(verbs)
-	
-    #choose a principal part of said verb, 2nd through 6th
-    random_pp = selected_verb[random.randint(1,5)]
+    verbs = random.sample(verbs, len(verbs))
 
-    #ensure that random_pp is assigned to an actual verbal form
-    while random_pp == None:
-        random_pp = selected_verb[random.randint(1,5)]
+    no_of_questions = input('How many verbs would you like to quiz yourself on? --> ')
 
-    #ask user to answer
-    answer = input('What is the first principal part of ' + random_pp + '? --> ')
+    while int(no_of_questions) > len(verbs):
+        no_of_questions = input('You can choose up to ' + str(len(verbs)) + ' verbs. Choose again! --> ')
 
-    #if user is incorrect, prompt again
-    while answer != selected_verb[0]:
-        answer = input('Try again! --> ')
-    else:
-        print('Correct!')
+    for verb in verbs[0:int(no_of_questions)]:
+
+        random_pp = verb[random.randint(1,5)]
+
+        while random_pp == None:
+            random_pp = verb[random.randint(1,5)]
+
+        answer = input('What is the first principal part of ' + random_pp + '? --> ')
+
+        while answer != verb[0]:
+            answer = input('Try again! --> ')
+        else:
+            print('Correct!')
+            pass
 
 quiz()
