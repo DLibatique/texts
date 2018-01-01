@@ -27,7 +27,7 @@ def quiz():
         random_pp = verb[random.randint(1,int(len(verb)))]
 
         while random_pp == None:
-            random_pp = verb[random.randint(1,5)]
+            random_pp = verb[random.randint(1,int(len(verb)))]
 
         answer = input('What is the first principal part of ' + random_pp + '? --> ')
 
