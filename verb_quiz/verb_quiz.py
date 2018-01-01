@@ -42,9 +42,9 @@ def quiz():
             else:
                 if verb[0] not in incorrect:
                     incorrect.append(verb[0])
-                answer = input('Try again! --> ')
+                answer = input('οἴμοι! Try again! --> ')
         else:
-            print('Correct!')
+            print('εὖγε!')
             
             if verb[0] not in incorrect:
                 correct.append(verb[0])
