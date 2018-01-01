@@ -35,7 +35,7 @@ def quiz():
 
         while answer != verb[0]:
             if answer == 'I give up.':
-                print('οἴμοι! - The correct answer is ' + str(verb[0]) + '.')
+                print('οἴμοι! The correct answer is ' + str(verb[0]) + '.')
                 if verb[0] not in incorrect:
                     incorrect.append(verb[0])
                 break
