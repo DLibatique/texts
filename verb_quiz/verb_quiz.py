@@ -24,15 +24,19 @@ def quiz():
 
     for verb in verbs[0:int(no_of_questions)]:
 
-        random_pp = verb[random.randint(1,int(len(verb)))]
+        random_pp = verb[random.randint(1,int(len(verb)-1))]
 
         while random_pp == None:
-            random_pp = verb[random.randint(1,5)]
+            random_pp = verb[random.randint(1,int(len(verb)-1))]
 
         answer = input('What is the first principal part of ' + random_pp + '? --> ')
 
         while answer != verb[0]:
-            answer = input('Try again! --> ')
+            if answer == 'I give up.':
+                print('The correct answer is ' + str(verb[0]) + '.')
+                break
+            else:
+                answer = input('Try again! --> ')
         else:
             print('Correct!')
             pass
