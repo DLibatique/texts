@@ -1,5 +1,11 @@
 import conjugate
 
+'''
+to add:
+	- mi verb endings
+	- optative
+'''
+
 pres_act_ind = ['ω', 'εις', 'ει', 'ομεν', 'ετε', 'ουσι(ν)']
 pres_act_ind_epsilon_contract = ['ῶ', 'εῖς', 'εῖ', 'οῦμεν', 'εῖτε', 'οῦσι(ν)']
 pres_act_ind_alpha_contract = ['ῶ', 'ᾷς', 'ᾷ', 'ῶμεν', 'ᾶτε', 'ῶσι(ν)']
@@ -108,7 +114,7 @@ verb3 = [
 	('βεβληκ', pf_act_ind),
 	('ἐβεβληκ', plupf_act_ind),
 	('βεβλη', pf_mp_ind),
-	('βεβλη', plupf_mp_ind),
+	('ἐβεβλη', plupf_mp_ind),
 	('ἐβληθ', aor_pass_ind),
 	('βληθ', fut_pass_ind)
 ]

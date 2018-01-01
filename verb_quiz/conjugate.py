@@ -1,4 +1,3 @@
-
 def simple_conjugate(stem, ending_list):
 
 	finished_list = []
