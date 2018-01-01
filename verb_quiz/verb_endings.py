@@ -1,13 +1,4 @@
-'''
-needed paradigms:
-	- pres act ind, pres mp ind
-	- impf act ind, impf mp ind
-	- fut act ind, fut mid ind
-	- aor(1/2) act ind, aor(1/2) mid ind
-	- pf act ind, plupf act ind
-	- pf mp ind, plupf mp ind
-	- aor pass ind, fut pass ind
-'''
+import conjugate
 
 pres_act_ind = ['ω', 'εις', 'ει', 'ομεν', 'ετε', 'ουσι(ν)']
 pres_act_ind_epsilon_contract = ['ῶ', 'εῖς', 'εῖ', 'οῦμεν', 'εῖτε', 'οῦσι(ν)']
@@ -55,17 +46,36 @@ plupf_mp_ind_dental = ['σμην', 'σο', 'στο', 'σμεθα', 'σθε', '(p
 aor_pass_ind = ['ην', 'ης', 'η', 'ημεν', 'ητε', 'ησαν']
 fut_pass_ind = ['ήσομαι', 'ήσῃ/ήσει', 'ήσεται', 'ησόμεθα', 'ήσεσθε', 'ήσονται']
 
-def simple_conjugate(stem, ending_list):
+'''
+stem and ending list pairs
 
-	finished_list = []
+needed paradigms:
+	- pres act ind, pres mp ind
+	- impf act ind, impf mp ind
+	- fut act ind, fut mid ind
+	- aor(1/2) act ind, aor(1/2) mid ind
+	- pf act ind, plupf act ind
+	- pf mp ind, plupf mp ind
+	- aor pass ind, fut pass ind
+'''
 
-	for ending in ending_list:
+#ἄγω
+verb1 = [
+	('ἀγ', pres_act_ind),
+	('ἀγ', pres_mp_ind),
+	('ἠγ', impf_act_ind),
+	('ἠγ', impf_mp_ind),
+	('ἀξ', fut_act_ind),
+	('ἀξ', fut_mid_ind),
+	('ἠγαγ', aor2_act_ind),
+	('ἠγαγ', aor2_mid_ind),
+	('ἠχ', pf_act_ind),
+	('ἠχ', plupf_act_ind),
+	('ἠ', pf_mp_ind_palatal),
+	('ἠ', plupf_mp_ind_palatal),
+	('ἠχθ', aor_pass_ind),
+	('ἀχθ', fut_pass_ind)
+]
 
-		verb = stem + ending
-		finished_list.append(verb)
-
-	return finished_list
-
-outfile = open('verb_paradigms.py', mode='w')
-outfile.write(str(simple_conjugate('ἠγαγ', aor2_act_ind)))
-outfile.close()
+for pair in verb1:
+	print(conjugate.simple_conjugate(pair[0], pair[1]))
