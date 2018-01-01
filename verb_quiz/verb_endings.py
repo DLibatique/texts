@@ -73,8 +73,7 @@ needed paradigms:
 	- aor pass ind, fut pass ind
 '''
 
-#ἄγω
-verb1 = [
+ἄγω = [
 	('ἀγ', pres_act_ind),
 	('ἀγ', pres_mp_ind),
 	('ἠγ', impf_act_ind),
@@ -91,8 +90,7 @@ verb1 = [
 	('ἀχθ', fut_pass_ind)
 ]
 
-#βαίνω
-verb2 = [
+βαίνω = [
 	('βαιν', pres_act_ind),
 	('ἐβαιν', impf_act_ind),
 	('βησ', fut_mid_ind),
@@ -101,8 +99,7 @@ verb2 = [
 	('ἐβεβηκ', plupf_act_ind)
 ]
 
-#βάλλω
-verb3 = [
+βάλλω = [
 	('βαλλ', pres_act_ind),
 	('βαλλ', pres_mp_ind),
 	('ἐβαλλ', impf_act_ind),
@@ -121,6 +118,6 @@ verb3 = [
 
 
 
-print(conjugate.full_conjugate(verb1))
-print(conjugate.full_conjugate(verb2))
-print(conjugate.full_conjugate(verb3))
+print(conjugate.full_conjugate(ἄγω))
+print(conjugate.full_conjugate(βαίνω))
+print(conjugate.full_conjugate(βάλλω))
