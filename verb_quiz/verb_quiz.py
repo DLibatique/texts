@@ -22,6 +22,8 @@ def quiz():
     while int(no_of_questions) > len(verbs):
         no_of_questions = input('You can choose up to ' + str(len(verbs)) + ' verbs. Choose again! --> ')
 
+    incorrect = []
+    correct = []
     for verb in verbs[0:int(no_of_questions)]:
 
         random_pp = verb[random.randint(1,int(len(verb)-1))]
@@ -34,11 +36,21 @@ def quiz():
         while answer != verb[0]:
             if answer == 'I give up.':
                 print('The correct answer is ' + str(verb[0]) + '.')
+                if verb[0] not in incorrect:
+                    incorrect.append(verb[0])
                 break
             else:
+                if verb[0] not in incorrect:
+                    incorrect.append(verb[0])
                 answer = input('Try again! --> ')
         else:
             print('Correct!')
+            
+            if verb[0] not in incorrect:
+                correct.append(verb[0])
             pass
+
+    print("You need to brush up on the following verbs: ",str(set(incorrect)))
+    print("But good job on the following verbs!: ",str(set(correct)))
 
 quiz()
