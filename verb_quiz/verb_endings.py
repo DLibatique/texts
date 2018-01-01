@@ -11,7 +11,9 @@ pres_mp_ind_alpha_contract = ['ῶμαι', 'ᾷ', 'ᾶται', 'ώμεθα', '�
 pres_mp_ind_omicron_contract = ['οῦμαι', 'οῖ', 'οῦται', 'ούμεθα', 'οῦσθε', 'οῦνται']
 
 fut_act_ind = ['ω', 'εις', 'ει', 'ομεν', 'ετε', 'ουσι(ν)']
+fut_act_ind_contract = ['ῶ', 'εῖς', 'εῖ', 'οῦμεν', 'εῖτε', 'οῦσι(ν)']
 fut_mid_ind = ['ομαι', 'ῃ', 'εται', 'όμεθα', 'εσθε', 'ονται']
+fut_mid_ind_contract = ['οῦμαι', 'ῇ', 'εῖται', 'ούμεθα', 'εῖσθε', 'οῦνται']
 
 impf_act_ind = ['ον', 'ες', 'ε(ν)', 'ομεν', 'ετε', 'ον']
 impf_act_ind_epsilon_contract = ['οῦν', 'εις', 'ει', 'οῦμεν', 'εῖτε', 'ουν']
@@ -93,15 +95,26 @@ verb2 = [
 	('ἐβεβηκ', plupf_act_ind)
 ]
 
-def full_conjugate(verb):
+#βάλλω
+verb3 = [
+	('βαλλ', pres_act_ind),
+	('βαλλ', pres_mp_ind),
+	('ἐβαλλ', impf_act_ind),
+	('ἐβαλλ', impf_mp_ind),
+	('βαλ', fut_act_ind_contract),
+	('βαλ', fut_mid_ind_contract),
+	('ἐβαλ', aor2_act_ind),
+	('ἐβαλ', aor2_mid_ind),
+	('βεβληκ', pf_act_ind),
+	('ἐβεβληκ', plupf_act_ind),
+	('βεβλη', pf_mp_ind),
+	('βεβλη', plupf_mp_ind),
+	('ἐβληθ', aor_pass_ind),
+	('βληθ', fut_pass_ind)
+]
 
-	full_list = []
 
-	for pair in verb:
-	
-		full_list.extend(conjugate.simple_conjugate(pair[0], pair[1]))
 
-	return full_list
-
-print(full_conjugate(verb1))
-print(full_conjugate(verb2))
+print(conjugate.full_conjugate(verb1))
+print(conjugate.full_conjugate(verb2))
+print(conjugate.full_conjugate(verb3))
