@@ -25,6 +25,7 @@ impf_mp_ind_omicron_contract = ['ούμην','οῦ','οῦτο','ούμεθα
 
 aor2_act_ind = ['ον', 'ες', 'ε(ν)', 'ομεν', 'ετε', 'ον']
 aor2_mid_ind = ['όμην','ου','ετο','όμεθα','εσθε','οντο']
+aor2_ath = ['ν', 'ς', '', 'μεν', 'τε', 'σαν']
 
 aor1_act_ind = ['α', 'ας', 'ε(ν)', 'αμεν', 'ατε', 'αν']
 aor1_mid_ind = ['άμην','ω','ατο','άμεθα','ασθε','αντο']
@@ -45,6 +46,11 @@ plupf_mp_ind_dental = ['σμην', 'σο', 'στο', 'σμεθα', 'σθε', '(p
 
 aor_pass_ind = ['ην', 'ης', 'η', 'ημεν', 'ητε', 'ησαν']
 fut_pass_ind = ['ήσομαι', 'ήσῃ/ήσει', 'ήσεται', 'ησόμεθα', 'ήσεσθε', 'ήσονται']
+
+act_subj = ['ω', 'ῃς', 'ῃ', 'ωμεν', 'ητε', 'ωσι(ν)']
+mp_subj = ['ωμαι', 'ῃ', 'ηται', 'ώμεθα', 'ησθε', 'ωνται']
+
+
 
 '''
 stem and ending list pairs
@@ -77,5 +83,25 @@ verb1 = [
 	('ἀχθ', fut_pass_ind)
 ]
 
-for pair in verb1:
-	print(conjugate.simple_conjugate(pair[0], pair[1]))
+#βαίνω
+verb2 = [
+	('βαιν', pres_act_ind),
+	('ἐβαιν', impf_act_ind),
+	('βησ', fut_mid_ind),
+	('ἐβη', aor2_ath),
+	('βεβηκ', pf_act_ind),
+	('ἐβεβηκ', plupf_act_ind)
+]
+
+def full_conjugate(verb):
+
+	full_list = []
+
+	for pair in verb:
+	
+		full_list.extend(conjugate.simple_conjugate(pair[0], pair[1]))
+
+	return full_list
+
+print(full_conjugate(verb1))
+print(full_conjugate(verb2))
