@@ -47,11 +47,15 @@ def select_file(raw_file,clean_file):
     outfile.close()
 
 def create_dictionary(filename):
-    
+
+    #get text and split at each new line
+    raw_text = read_file(filename)
+    line_list = raw_text.split('\n')
+
+    #create dictionary and assign line to line number
     dict = {}
-    text = read_file(filename).split('\n')
-    for linenumber,line in enumerate(text,1):
-        dict[linenumber] = line
+    for line_number, text in enumerate(line_list):
+        dict[line_number+1] = text
 
     return dict
 
